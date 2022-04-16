@@ -1,0 +1,27 @@
+body{
+  font-family:"Blippo",sans-serif;
+}
+
+table{
+  width: 600px;
+}
+td, th{
+  padding: 7px;
+}
+th{
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  letter-spacing: 0.1em; /*separação entre letras*/
+  /* text-transform: uppercase; => transforma em letras MAIÚSCULAS*/
+}
+
+.alternado{
+  background-color: #efefef;
+}
+tr:hover /*mostrar cor de linha diferente na linha q o mouse está */{
+  background-color: #c3e6e5;
+}
+.numero{
+  text-align: right;
+}

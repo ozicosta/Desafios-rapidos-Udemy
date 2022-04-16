@@ -1,0 +1,55 @@
+/* Estilizando logo e imagem do logo */
+/* deixar site padrão */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  background: #fff url(./imagem/fundo.png) repeat-x;
+}
+
+#container{
+  width: 750px;
+  margin: 0 auto; /*centralizar o conteudo -> navegação <- */
+}
+#topo{
+  height: 150px;
+  background: url('./imagem/detalhe-topo.png') no-repeat right top;
+  padding: 25px;
+
+}
+
+.logo{
+  width: 152px;
+  height: 66px;
+  text-indent: -3000px;
+  background: url('./imagem/logo.png') no-repeat center;
+}
+
+/* barra de navegação */
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#topo ul{
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#topo ul li{
+  float: left;
+}
+
+#topo ul li a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url('./imagem/divisor.png') no-repeat left center;
+}
